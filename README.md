@@ -1,2 +1,5 @@
 # interview_prep
-my solutions and notes for blind75 and leetcode
+
+This repository contains my own implementations of my solutions for the Blind 75 and Leetcode problems.
+
+You can access the list of recommended problems in [this](https://neetcode.io/) link.
