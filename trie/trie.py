@@ -22,7 +22,7 @@ class TreeNode:
         def setEndOfWord(self):
             self.endOfWord = True
 
-        def __str__(self) -> str:
+        def __str__(self):
             return str(self.alphabet)
 class Trie(object):
             
@@ -65,7 +65,7 @@ class Trie(object):
         """
         current = self.root
         for c in range(len(prefix)):
-            order = ord(word[c]) - ord('a')
+            order = ord(prefix[c]) - ord('a')
             if current.alphabet[order] is None:
                 return False
             else:
